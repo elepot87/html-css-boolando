@@ -12,18 +12,39 @@
 
 ul {
   list-style-type: none;
+  width: 100%;
 }
 
 li {
   display: inline-block;
-  width: calc(100% / 3);
-  background-color: red;
-  margin: 0 -2px 30px;
-  padding: 0 2px;
+  width: 32%;
+  height: 600px;
+  margin-right: 10px;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
 }
 
-.col {
-  display: inline-block;
-  width: calc(100% / 3);
-  background-color: red;
+li:first-child {
+  background-image: url("../img/1.webp");
+}
+
+li:nth-child(2) {
+  background-image: url("../img/2.webp");
+}
+
+li:last-child {
+  background-image: url("../img/3.webp");
+}
+
+.wishlist {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.badge {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
 }
