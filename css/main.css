@@ -68,6 +68,12 @@ li {
   position: absolute;
   top: 20px;
   right: 0;
+  background-color: #fff;
+  text-align: center;
+  padding: 8px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
 }
 
 .badge {
@@ -113,12 +119,6 @@ li {
 }
 
 .wishlist {
-  background-color: #fff;
-  text-align: center;
-  padding: 8px;
-  font-size: 20px;
-  width: 40px;
-  height: 40px;
 }
 
 /* Transitions */
